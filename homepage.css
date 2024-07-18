@@ -1,0 +1,26 @@
+.wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.illustrate {
+    position: relative;
+    z-index: 2;
+    padding-right: 3%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.usp{
+    color: #1e1e1e;
+    font-size: 44px;
+    font-weight: bold;
+    padding-left: 5%;
+    z-index: 2;
+}

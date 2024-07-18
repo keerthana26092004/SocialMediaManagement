@@ -1,0 +1,40 @@
+    .graph-cont{
+        padding-right: 20px;
+        width: 20%;
+    }
+
+    .name{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .graph-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+        height: 40%;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .profile{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .followers-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .followers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }

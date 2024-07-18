@@ -1,0 +1,90 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardholder{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.stats{
+    width: 55%;
+    /* background-color: black; */
+    display: inline;
+    justify-content: start;
+    gap: 10px;
+    align-items: start;
+}
+
+.sep{
+    width: 100%; 
+    height: 1px;
+    background-color: black;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* align-items: center; */
+
+    font-weight: 600;
+    /* background-color: #FEEE99; */
+    height: 264px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+
+    padding-left: 30px;
+
+}
+
+.card1{
+    background-color: #FEEE99;
+    border-radius: 8px;
+}
+
+.card2{
+    background-color: #D5D3FF;
+    border-radius: 8px;
+}
+.card3{
+    background-color: #A48FF8;
+    border-radius: 8px;
+}
+
+.tweets{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.platform{
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.follow-count{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.follow-count h1,h5{
+    margin: 0px;
+}
+
+.follow-count h5{
+    font-weight: 550;
+}
+
+.greet{
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.vertline{
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
